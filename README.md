@@ -1,5 +1,16 @@
 # Angular2SkeletonHeroku
 
+#### Directions
+* clone repo: `git clone https://github.com/efreethy/angular2-skeleton-heroku.git`
+* enter project context: `cd angular2-skeleton-heroku`
+* Ensure you have a heroku account and have downloaded the CLI tools
+* run `heroku create` to initalize a heroku project
+* `heroku config:set NPM_CONFIG_PRODUCTION=false` to ensure devDependencies are loaded instead
+* `git add -A && git commit -m "first commit"`
+* `git push -u origin master && git push heroku master`
+
+https://github.com/efreethy/angular2-skeleton-heroku.git
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
 ## Development server
